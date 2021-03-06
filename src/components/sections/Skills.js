@@ -13,7 +13,7 @@ function Skills() {
               <span className="icon has-text-link">
                 <i className="fas fa-3x fa-cogs"></i>
               </span>
-              <h2 className="title is-5">DevOps</h2>
+              <h2 className="title is-5">Back-End</h2>
             </div>
             <SkillsList
               skills={Resume.skills
@@ -29,7 +29,7 @@ function Skills() {
               <span className="icon has-text-link">
                 <i className="fas fa-3x fa-laptop-code"></i>
               </span>
-              <h2 className="title is-5">Software Development</h2>
+              <h2 className="title is-5">Front-End</h2>
             </div>
             <SkillsList
               skills={Resume.skills

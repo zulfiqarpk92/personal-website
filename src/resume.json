@@ -1,123 +1,129 @@
 {
   "basics": {
-    "name": "José Coelho",
-    "label": "DevOps Engineer",
-    "picture": "images/jcoelho.webp",
-    "x_pictureFallback": "images/jcoelho.jpg",
+    "name": "Zulfiqar Ali",
+    "label": "Full Stack Developer",
+    "picture": "images/zulfiqar.webp",
+    "x_pictureFallback": "images/zulfiqar.jpg",
     "x_title": "Hey There! Glad you're here",
-    "summary": "Going on 4 years of experience in IT. Currently I’m working as a developer exploring the DevOps world. I’m interested in service management, all sorts of automation and developing front-end and back-end applications.",
+    "summary": "I have more than 6 years of technical experience in development, deployments, debugging and testing of Web based custom applications in LAMP/LEMP stack. Solid background of PHP, HTML, CSS/CSS3, Vanilla Javascript and modern Javascript frameworks. I am also expert in developing REST APIs for cross platform applications. I also have some experience in developing cross platform mobile applications.",
     "location": {
-      "country": "Hungary",
-      "countryCode": "HU",
-      "region": "Budapest"
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "region": "Islamabad"
     },
     "profiles": [
       {
-        "network": "DEV Community",
-        "username": "jcoelho",
-        "url": "https://dev.to/jcoelho",
-        "x_icon":"fab fa-2x fa-dev"
+        "network": "Twitter",
+        "username": "zulfiqar_pk92",
+        "url": "https://twitter.com/zulfiqar_pk92",
+        "x_icon":"fab fa-2x fa-twitter"
       },
       {
         "network": "LinkedIn",
-        "username": "josecoelho93",
-        "url": "https://www.linkedin.com/in/josecoelho93",
+        "username": "zulfiqarpk92",
+        "url": "https://www.linkedin.com/in/zulfiqarpk92",
         "x_icon": "fab fa-2x fa-linkedin"
       },
       {
         "network": "GitHub",
-        "username": "jcoelho93",
-        "url": "https://github.com/jcoelho93",
+        "username": "zulfiqarpk92",
+        "url": "https://github.com/zulfiqarpk92",
         "x_icon": "fab fa-2x fa-github"
       }
     ]
   },
   "work": [
     {
-      "company": "Bosch",
-      "position": "DevOps Engineer for automated driving",
-      "website": "https://www.bosch.hu",
-      "startDate": "2019-10-15",
+      "company": "Jin Technologies Pvt Ltd.",
+      "position": "Project Manager",
+      "website": "https://jintech.com",
+      "startDate": "2019-01-01",
       "endDate": "",
-      "summary": "Joined the Athena project, a Bosch & Daimler effort to bring a level 4 autonomous car to the streets.",
+      "summary": "Started managing junior Software Engineer and providing assistance.",
       "highlights": []
     },
     {
-      "company": "Asseco PST",
-      "position": "DevOps Engineer",
-      "website": "https://www.pst.asseco.com",
-      "startDate": "2018-04-01",
-      "endDate": "2019-08-30",
-      "summary": "Joined Asseco PST DevOps team to help them deliver happiness to their customers",
+      "company": "Jin Technologies Pvt Ltd.",
+      "position": "Senior Software Engineer",
+      "website": "https://jintech.com",
+      "startDate": "2014-10-01",
+      "endDate": "2018-12-31",
+      "summary": "Got promoted to Senior Software Engineer with in 11 months.",
       "highlights": []
     },
     {
-      "company": "Asseco PST",
-      "position": "Backend Developer",
-      "website": "https://www.pst.asseco.com",
-      "startDate": "2017-08-16",
+      "company": "Jin Technologies Pvt Ltd.",
+      "position": "Software Engineer",
+      "website": "https://jintech.com",
+      "startDate": "2013-11-04",
       "endDate": "",
-      "summary": "Started my first professional developer experience as a Backend Developer for Asseco PST",
+      "summary": "Started my first professional experience as a junior Software Engineer.",
       "highlights": []
     },
     {
-      "company": "European GNSS Agency",
-      "position": "IT Support Technician",
-      "website": "https://www.gsa.europea.eu",
-      "startDate": "2016-05-01",
+      "company": "Comsats University Abbottabad",
+      "position": "Lab Engineer",
+      "website": "https://cuiatd.edu.pk/",
+      "startDate": "2013-09-01",
       "endDate": "",
-      "summary": "Moved to Prague, Czech Republic to intern for the European Commission helping them build one of the biggest european projects, Galileo Satellite System",
-      "highlights": []
-    },
-    {
-      "company": "Empresa de Electricidade da Madeira",
-      "position": "IT Support Technician",
-      "website": "https://www.eem.pt",
-      "startDate": "2015-03-01",
-      "endDate": "",
-      "summary": "My first real work experience. Interning as an IT Support Technician I was able to learn and explore way more than the workings of a big IT Infrastructure. I got to work with PowerShell scripting, PHP and email marketing.",
+      "summary": "My first real work experience. I started interning for my project supervisor. I was assigned multiple tasks e.g. conducting lab sessions and assisting her in executing course practicals.",
       "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Madeira",
+      "institution": "Comsats University Abbottabad",
       "area": "Computer Engineering",
       "studyType": "Bachelor",
-      "startDate": "2011-09-15",
-      "endDate": "2019-06-07",
+      "startDate": "2009-09-01",
+      "endDate": "2013-06-30",
       "courses": [
         "Object Oriented Programming",
-        "Database Management Systems",
-        "Operating systems and computers architectures",
-        "Requirements Engineering"
+        "Algorithm and Data Structures",
+        "Operating systems and Computer architectures",
+        "Digital Logic Design"
       ]
     }
   ],
   "skills": [
     {
-      "name": "Jenkins",
+      "name": "Object Oriented Programming",
       "level": "Advanced",
       "keywords": ["DevOps"]
     },
     {
-      "name": "Continuous Integration",
+      "name": "PHP/MVC",
       "level": "Advanced",
       "keywords": ["DevOps"]
     },
     {
-      "name": "Scripting",
-      "level": "Advanced",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Containers",
+      "name": "NodeJS",
       "level": "Intermediate",
       "keywords": ["DevOps"]
     },
     {
-      "name": "Cloud",
-      "level": "Basic",
+      "name": "MYSQL",
+      "level": "Advanced",
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "REST API",
+      "level": "Advanced",
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Payment Gateways",
+      "level": "Advanced",
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Third Party Services Integration",
+      "level": "Advanced",
       "keywords": ["DevOps"]
     },
     {
@@ -126,42 +132,67 @@
       "keywords": ["DevOps"]
     },
     {
-      "name": "Infrastructure as Code",
+      "name": "Redis",
+      "level": "Intermediate",
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Document DB",
       "level": "Basic",
       "keywords": ["DevOps"]
     },
     {
-      "name": "Object Oriented Programming",
-      "level": "Advanced",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Design Patterns",
+      "name": "CSS/CSS3",
       "level": "Intermediate",
       "keywords": ["Software Developer"]
     },
     {
-      "name": "Git",
+      "name": "Bootstrap",
       "level": "Intermediate",
       "keywords": ["Software Developer"]
     },
     {
-      "name": "REST API",
-      "level": "Advanced",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Unit Testing",
+      "name": "Foundation",
       "level": "Intermediate",
       "keywords": ["Software Developer"]
     },
     {
-      "name": "MySQL",
+      "name": "Material UI",
       "level": "Intermediate",
       "keywords": ["Software Developer"]
     },
     {
-      "name": "MongoDB",
+      "name": "Javascript/JQuery",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Grunt/Gulp",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "AngularJS",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Angular",
+      "level": "Basic",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "React",
+      "level": "Basic",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Vue/VueX/Quasar",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Ionic",
       "level": "Intermediate",
       "keywords": ["Software Developer"]
     }
@@ -172,18 +203,22 @@
       "fluency": "Fluent speaker"
     },
     {
-      "language": "Portuguese",
+      "language": "Urdu",
+      "fluency": "Fluent speaker"
+    },
+    {
+      "language": "Pashto",
       "fluency": "Native speaker"
     }
   ],
   "interests": [
     {
-      "name": "Travel bug",
-      "x_icon": "fa-globe-africa"
+      "name": "Reading Books",
+      "x_icon": "fa-book"
     },
     {
-      "name": "Dog lover",
-      "x_icon": "fa-dog"
+      "name": "Games",
+      "x_icon": "fa-mobile"
     },
     {
       "name": "Foodie",

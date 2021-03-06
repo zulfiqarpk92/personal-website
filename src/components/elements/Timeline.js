@@ -3,6 +3,10 @@ import TimelineItem from "./TimelineItem";
 import Resume from "../../resume.json";
 
 function Timeline() {
+  let years = Resume.work.map(item => {
+    return new Date(item.startDate).getFullYear();
+  });
+  years = years.filter((year, index) => years.indexOf(year) == index);
   return (
     <div className="timeline is-centered">
       <header className="timeline-header">
@@ -14,11 +18,7 @@ function Timeline() {
         <div className="timeline-marker is-success"></div>
         <div className="timeline-content"></div>
       </div>
-      {Resume.work
-        .map(item => {
-          return new Date(item.startDate).getFullYear();
-        })
-        .map((year, i) => {
+      {years.map((year, i) => {
           let content = [];
           content.push(
             <header key={i} className="timeline-header">
@@ -37,6 +37,7 @@ function Timeline() {
                       year: "numeric"
                     })}
                     company={item.company}
+                    position={item.position}
                     summary={item.summary}
                   />
                 );

@@ -5,8 +5,9 @@ import Resume from "../../resume.json";
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { showMenu: false };
+    this.state = { showMenu: false, scrolling: false };
     this.handleMenuClick = this.handleMenuClick.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
   }
 
   handleMenuClick(e) {
@@ -14,9 +15,26 @@ class NavBar extends React.Component {
     this.setState({ showMenu: !currentState });
   }
 
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll(event) {
+    if (window.scrollY === 0) {
+      this.setState({ scrolling: false });
+    }
+    else if (window.scrollY !== 0) {
+      this.setState({scrolling: true});
+    }
+  }
+
   render() {
     return (
-      <nav className="navbar is-transparent">
+      <nav className={this.state.scrolling ? "navbar is-transparent is-fixed-top" : "navbar is-transparent"}>
         <div className="container">
           <div className="navbar-brand">
             <a href="/" className="navbar-item title is-unselectable my-name">

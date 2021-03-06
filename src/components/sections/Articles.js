@@ -8,34 +8,6 @@ class Articles extends Component {
   }
 
   componentDidMount() {
-    const devTo = "https://dev.to/api/articles?username=jcoelho";
-
-    fetch(devTo)
-      .then(response => {
-        return response.json();
-      })
-      .then(data => {
-        let articles = [];
-        data = data.slice(0, 4);
-        data.forEach((element, index) => {
-          articles.push(
-            <div className="column" key={index}>
-              <Article
-                key={index}
-                title={element.title}
-                url={element.url}
-                image={element.cover_image}
-                extract={element.description}
-              />
-            </div>
-          );
-        });
-        var offset = 4 - data.length;
-        for (var i = 0; i < offset; i++) {
-          articles.push(<div className="column"></div>);
-        }
-        this.setState({ articles: articles });
-      });
   }
 
   render() {
