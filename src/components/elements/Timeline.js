@@ -6,7 +6,7 @@ function Timeline() {
   let years = Resume.work.map(item => {
     return new Date(item.startDate).getFullYear();
   });
-  years = years.filter((year, index) => years.indexOf(year) == index);
+  years = years.filter((year, index) => years.indexOf(year) === index);
   return (
     <div className="timeline is-centered">
       <header className="timeline-header">

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Article from "../elements/Article";
+// import Article from "../elements/Article";
 
 class Articles extends Component {
   constructor(props) {

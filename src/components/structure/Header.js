@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../elements/NavBar";
+// import NavBar from "../elements/NavBar";
 import Hero from "../elements/Hero";
 
 function Header() {
